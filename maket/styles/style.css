@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: #efe6dd; color: #4e4e4e;
+}
+
+header {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+#logo {
+    padding-top: 32px;
+    padding-left: 136px;
+    width: 48px;
+    height: 54.65px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 49px 0 0 273px;
+    font-size: 15px;
+}
+
+.menu {
+    margin-left: 32px;
+    font-weight: 400;    
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    color: red;
+}
+
+#contact {
+    margin-left: 64px;
+}
+
+#button1 {
+    margin-left: 15px;
+    width: 137px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #d4b195;
+    color: #efe6dd;
+    border-radius: 24px;
+    border-color: #d4b195;
+    border-style: solid;
+}
+
+#button1:hover {
+    border-color: black;
+}
+
+
+#info {
+    margin: 213px 0 0 136px;
+    width: 593px;
+}
+
+h1 {
+    margin: 0;
+    line-height: 85%;
+    font-family: 'Oranienbaum', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+}
+
+h5 {
+    margin: 15px 0 0 0;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #698079;
+}
+
+#woman {
+    width: 538px;
+    height: 538px;
+    margin: 70px 0 0 32px;
+}
+
+#button2 {
+    margin-top: 32px;
+    width: 160px;
+    height: 40px;
+    line-height: 140%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #EFE6DD;
+    background: #B07875;
+    border-color: #B07875;
+    border-radius: 24px;
+    border-style: solid;
+}
+
+#button2:hover {
+    border-color: black;
+}
