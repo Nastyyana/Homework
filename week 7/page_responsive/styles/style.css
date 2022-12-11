@@ -1,0 +1,81 @@
+body {
+    font-size: 1.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: rgb(203, 203, 203);
+}
+
+.main {
+    display: flex;
+    height: 65vh;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70vw;
+    background-color: rgb(239, 226, 197);
+}
+
+.main-left p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 50%;
+}
+
+.sections section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 40%;
+    padding: 0;
+    background-color: rgb(238, 199, 131);
+}
+
+#item-3 {
+    align-self: flex-end;
+    width: 95%;
+
+}
+
+.main-right {
+    text-align: center;
+    width: 30vw;
+    padding-top: 25px;
+    background-color: rgb(173, 194, 177);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    background-color: rgb(203, 203, 203);
+}
+
+.footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80%;
+    background-color: white;
+}
